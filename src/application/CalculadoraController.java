@@ -312,13 +312,15 @@ public class CalculadoraController implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 		// TODO Auto-generated method stub
 		
-		this.bt7.setOnAction(new EventHandler<ActionEvent>() {
+		this.getBt7().setOnAction(new EventHandler<ActionEvent>() {
 			
 			@Override // dentro do metodo handle vai a ação que o botão devera fazer
 			public void handle(ActionEvent event) {
 				// TODO Auto-generated method stub
 				
-				TelaCalculadora.setText("1");
+				
+				System.out.println("teu cu");
+				//getTelaCalculadora().setText("7");
 				
 			}
 		});
