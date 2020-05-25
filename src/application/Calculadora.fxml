@@ -74,7 +74,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="btApagar" mnemonicParsing="false" prefHeight="50.0" prefWidth="55.0" style="-fx-background-color: #EBECF0; -fx-border-color: #55b9f3; -fx-border-radius: 60; -fx-background-radius: 60;" text="AC" GridPane.columnIndex="3">
+            <Button fx:id="btApagar" cacheShape="false" centerShape="false" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="55.0" scaleShape="false" style="-fx-background-color: #EBECF0; -fx-border-color: #55b9f3; -fx-border-radius: 60; -fx-background-radius: 60;" text="AC" GridPane.columnIndex="3">
                <effect>
                   <DropShadow color="#c3c8dbe3" offsetX="6.0" offsetY="6.0">
                      <input>

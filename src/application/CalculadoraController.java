@@ -1,10 +1,16 @@
 package application;
 
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
-public class CalculadoraController {
+public class CalculadoraController implements Initializable {
 	@FXML
 	private TextField TelaCalculadora;
 	@FXML
@@ -47,6 +53,24 @@ public class CalculadoraController {
 	private Button btIgual;
 	@FXML
 	private Button btMais;
+	
+	
+	@Override
+	public void initialize(URL location, ResourceBundle resources) {
+		// TODO Auto-generated method stub
+		
+		this.bt7.setOnAction(new EventHandler<ActionEvent>() {
+			
+			@Override // dentro do metodo handle vai a ação que o botão devera fazer
+			public void handle(ActionEvent event) {
+				// TODO Auto-generated method stub
+				
+				TelaCalculadora.setText("1");
+				
+			}
+		});
+		
+	}
 	
 	
 	
