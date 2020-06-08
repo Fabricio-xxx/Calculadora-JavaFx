@@ -18,7 +18,7 @@
 				<Font name="System Bold" size="16.0" />
 			</font>
 		</Text>
-		<TextField fx:id="TelaCalculadora" alignment="BOTTOM_RIGHT" cache="true" cacheShape="false" centerShape="false" focusTraversable="false" layoutX="10.0" layoutY="45.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="50.0" prefWidth="267.0" promptText="garai" scaleShape="false" style="-fx-background-color: #EBECF0; -fx-background-radius: 8px;">
+		<TextField fx:id="TelaCalculadora" alignment="BOTTOM_RIGHT" cache="true" cacheShape="false" centerShape="false" focusTraversable="false" layoutX="10.0" layoutY="45.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="50.0" prefWidth="267.0" promptText="0" scaleShape="false" style="-fx-background-color: #EBECF0; -fx-background-radius: 8px;">
 			<effect>
 				<InnerShadow color="WHITE" offsetX="-6.0" offsetY="-6.0">
 					<input>
